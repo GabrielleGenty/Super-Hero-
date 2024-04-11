@@ -1,4 +1,4 @@
-class personne{
+class Personne{
     constructor(name,age,power,rich){
         this.name= name;
         this.age=age;
@@ -9,7 +9,7 @@ class personne{
         return this.age();
     }
     getInfo(){
-        return `"Il s'appele" ${this.name} "a"${this.age} "il peut" ${this.power} ${this.rich ?"il est rich" : "il'est pauvre"}`;
+        return `Il s'appele ${this.name},il a ${this.age}ans, il peut ${this.power} ${this.rich ?"il est rich" : "il'est pauvre"}`;
     }
     displayInfo(){
         console.log(personne.getAge);
@@ -18,4 +18,4 @@ class personne{
     
 }
 
-export default personne;
+export default Personne;

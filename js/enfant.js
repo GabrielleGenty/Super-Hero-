@@ -1,6 +1,6 @@
-import personne from "./maman.js";
+import Personne from "./maman.js";
 
-class hero extends personne{
+class Hero extends Personne{
     constructor(name,age,power,genre,type){
         super(name,age,power);
         this.genre=genre;
@@ -11,4 +11,4 @@ class hero extends personne{
 
     }
 }
-export default hero;
+export default Hero;
